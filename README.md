@@ -1,2 +1,8 @@
-# shawishco-blog
-SHAWISHCO Arabic streaming guides with automatic daily publishing
+# SHAWISHCO Blog
+
+مدونة شاويشكو العامة على `blog.shawishco.com`.
+
+- ينشر GitHub Actions المقال التالي يوميًا عند الساعة 10:00 صباحًا بتوقيت عمّان.
+- المقالات المعلّقة موجودة في `.publisher/queue/`.
+- حالة النشر محفوظة في `.publisher/published.json`.
+- لا تحتاج عملية النشر اليومية إلى أي مفتاح Cloudflare.

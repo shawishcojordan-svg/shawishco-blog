@@ -1,0 +1,49 @@
+name: Publish next daily guide
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shawishco-daily-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the blog
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Publish the next queued guide
+        id: publish
+        run: |
+          before="$(git status --porcelain)"
+          node scripts/publish-next.mjs
+          after="$(git status --porcelain)"
+          if [ "$before" = "$after" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit the published guide
+        if: steps.publish.outputs.changed == 'true'
+        run: |
+          git config user.name "SHAWISHCO Publisher"
+          git config user.email "shawishco.jordan@gmail.com"
+          git add guides sitemap.xml .publisher/published.json
+          git commit -m "Publish daily guide"
+          git push
