@@ -1,0 +1,45 @@
+name: Verify blog custom domain
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/verify-live.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Wait for HTTPS and verify the guide page
+        run: |
+          verified=false
+          for attempt in {1..24}; do
+            code="$(curl -L -sS -o /tmp/guide.html -w "%{http_code}" --max-time 20 https://blog.shawishco.com/guides/ || true)"
+            if [ "$code" = "200" ] && grep -q "دليل اختيار الاشتراك والجهاز" /tmp/guide.html; then
+              verified=true
+              break
+            fi
+            sleep 15
+          done
+          if [ "$verified" != "true" ]; then
+            echo "The custom domain did not become ready in time."
+            exit 1
+          fi
+          checked_at="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          printf '{\n  "url": "https://blog.shawishco.com/guides/",\n  "status": 200,\n  "contentVerified": true,\n  "checkedAt": "%s"\n}\n' "$checked_at" > .publisher/live-check.json
+
+      - name: Store the verification result
+        run: |
+          git config user.name "SHAWISHCO Publisher"
+          git config user.email "shawishco.jordan@gmail.com"
+          git add .publisher/live-check.json
+          git commit -m "Verify blog custom domain"
+          git push
