@@ -1,12 +1,18 @@
 {
   "published": [
-    "001-buffering-fast-internet.json"
+    "001-buffering-fast-internet.json",
+    "002-wifi-or-cable.json"
   ],
   "history": [
     {
       "file": "001-buffering-fast-internet.json",
       "slug": "buffering-with-fast-internet",
       "publishedAt": "2026-10-26"
+    },
+    {
+      "file": "002-wifi-or-cable.json",
+      "slug": "wifi-or-ethernet-for-streaming",
+      "publishedAt": "2026-10-27"
     }
   ]
 }
