@@ -2,7 +2,8 @@
   "published": [
     "001-buffering-fast-internet.json",
     "002-wifi-or-cable.json",
-    "003-4k-8k-names.json"
+    "003-4k-8k-names.json",
+    "004-subscription-duration.json"
   ],
   "history": [
     {
@@ -19,6 +20,11 @@
       "file": "003-4k-8k-names.json",
       "slug": "what-4k-and-8k-really-mean",
       "publishedAt": "2026-10-28"
+    },
+    {
+      "file": "004-subscription-duration.json",
+      "slug": "choose-subscription-duration",
+      "publishedAt": "2026-10-29"
     }
   ]
 }
