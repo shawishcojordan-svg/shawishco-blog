@@ -3,7 +3,8 @@
     "001-buffering-fast-internet.json",
     "002-wifi-or-cable.json",
     "003-4k-8k-names.json",
-    "004-subscription-duration.json"
+    "004-subscription-duration.json",
+    "005-player-vs-subscription.json"
   ],
   "history": [
     {
@@ -25,6 +26,11 @@
       "file": "004-subscription-duration.json",
       "slug": "choose-subscription-duration",
       "publishedAt": "2026-10-29"
+    },
+    {
+      "file": "005-player-vs-subscription.json",
+      "slug": "player-activation-vs-subscription",
+      "publishedAt": "2026-10-30"
     }
   ]
 }
