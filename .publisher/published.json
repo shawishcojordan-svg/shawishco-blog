@@ -4,7 +4,8 @@
     "002-wifi-or-cable.json",
     "003-4k-8k-names.json",
     "004-subscription-duration.json",
-    "005-player-vs-subscription.json"
+    "005-player-vs-subscription.json",
+    "006-before-changing-service.json"
   ],
   "history": [
     {
@@ -31,6 +32,11 @@
       "file": "005-player-vs-subscription.json",
       "slug": "player-activation-vs-subscription",
       "publishedAt": "2026-10-30"
+    },
+    {
+      "file": "006-before-changing-service.json",
+      "slug": "checks-before-changing-subscription",
+      "publishedAt": "2026-10-31"
     }
   ]
 }
