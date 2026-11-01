@@ -5,7 +5,8 @@
     "003-4k-8k-names.json",
     "004-subscription-duration.json",
     "005-player-vs-subscription.json",
-    "006-before-changing-service.json"
+    "006-before-changing-service.json",
+    "007-tv-app-or-box.json"
   ],
   "history": [
     {
@@ -37,6 +38,11 @@
       "file": "006-before-changing-service.json",
       "slug": "checks-before-changing-subscription",
       "publishedAt": "2026-10-31"
+    },
+    {
+      "file": "007-tv-app-or-box.json",
+      "slug": "smart-tv-app-or-external-box",
+      "publishedAt": "2026-11-01"
     }
   ]
 }
