@@ -7,7 +7,8 @@
     "005-player-vs-subscription.json",
     "006-before-changing-service.json",
     "007-tv-app-or-box.json",
-    "008-model-number-matters.json"
+    "008-model-number-matters.json",
+    "009-find-the-real-problem.json"
   ],
   "history": [
     {
@@ -49,6 +50,11 @@
       "file": "008-model-number-matters.json",
       "slug": "why-device-model-number-matters",
       "publishedAt": "2026-11-02"
+    },
+    {
+      "file": "009-find-the-real-problem.json",
+      "slug": "internet-device-or-service-problem",
+      "publishedAt": "2026-11-03"
     }
   ]
 }
