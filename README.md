@@ -1,6 +1,18 @@
-# SHAWISHCO Blog
+# SHAWISHCO | شاويشكو
 
-مدونة شاويشكو العامة على `blog.shawishco.com`.
+الموقع الرسمي: [shawishco.com](https://shawishco.com/)
+
+شاويشكو منصة أردنية للاشتراكات الرقمية وتفعيلات تطبيقات المشغّل، تعرض الخيارات والمدد والأسعار بوضوح، مع تأكيد توافق الجهاز وترتيب الطلب والدعم عبر واتساب.
+
+## الروابط الرسمية
+
+- الموقع: [https://shawishco.com/](https://shawishco.com/)
+- المدونة: [https://blog.shawishco.com/](https://blog.shawishco.com/)
+- Instagram: [@shawishco.jordan](https://www.instagram.com/shawishco.jordan/)
+- Facebook: [SHAWISHCO](https://www.facebook.com/61595304878006)
+- Telegram: [@shawishco](https://t.me/shawishco)
+
+## النشر التلقائي للمدونة
 
 - ينشر GitHub Actions المقال التالي يوميًا عند الساعة 10:00 صباحًا بتوقيت عمّان.
 - المقالات المعلّقة موجودة في `.publisher/queue/`.
