@@ -10,7 +10,8 @@
     "008-model-number-matters.json",
     "009-find-the-real-problem.json",
     "010-fair-playback-test.json",
-    "011-family-needs-checklist.json"
+    "011-family-needs-checklist.json",
+    "012-before-buying-player.json"
   ],
   "history": [
     {
@@ -67,6 +68,11 @@
       "file": "011-family-needs-checklist.json",
       "slug": "family-streaming-needs-checklist",
       "publishedAt": "2026-11-05"
+    },
+    {
+      "file": "012-before-buying-player.json",
+      "slug": "before-buying-player-activation",
+      "publishedAt": "2026-11-06"
     }
   ]
 }
