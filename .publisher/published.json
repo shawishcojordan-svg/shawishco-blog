@@ -12,7 +12,8 @@
     "010-fair-playback-test.json",
     "011-family-needs-checklist.json",
     "012-before-buying-player.json",
-    "013-router-location.json"
+    "013-router-location.json",
+    "014-first-day-checklist.json"
   ],
   "history": [
     {
@@ -79,6 +80,11 @@
       "file": "013-router-location.json",
       "slug": "best-router-location-for-streaming",
       "publishedAt": "2026-11-07"
+    },
+    {
+      "file": "014-first-day-checklist.json",
+      "slug": "first-day-subscription-checklist",
+      "publishedAt": "2026-11-08"
     }
   ]
 }
