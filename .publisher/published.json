@@ -13,7 +13,8 @@
     "011-family-needs-checklist.json",
     "012-before-buying-player.json",
     "013-router-location.json",
-    "014-first-day-checklist.json"
+    "014-first-day-checklist.json",
+    "015-real-speed-for-streaming.json"
   ],
   "history": [
     {
@@ -85,6 +86,11 @@
       "file": "014-first-day-checklist.json",
       "slug": "first-day-subscription-checklist",
       "publishedAt": "2026-11-08"
+    },
+    {
+      "file": "015-real-speed-for-streaming.json",
+      "slug": "internet-speed-for-streaming",
+      "publishedAt": "2026-11-09"
     }
   ]
 }
