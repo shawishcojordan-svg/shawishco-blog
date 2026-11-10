@@ -14,7 +14,8 @@
     "012-before-buying-player.json",
     "013-router-location.json",
     "014-first-day-checklist.json",
-    "015-real-speed-for-streaming.json"
+    "015-real-speed-for-streaming.json",
+    "016-wifi-24-vs-5.json"
   ],
   "history": [
     {
@@ -91,6 +92,11 @@
       "file": "015-real-speed-for-streaming.json",
       "slug": "internet-speed-for-streaming",
       "publishedAt": "2026-11-09"
+    },
+    {
+      "file": "016-wifi-24-vs-5.json",
+      "slug": "wifi-24ghz-vs-5ghz",
+      "publishedAt": "2026-11-10"
     }
   ]
 }
