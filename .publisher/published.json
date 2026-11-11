@@ -15,7 +15,8 @@
     "013-router-location.json",
     "014-first-day-checklist.json",
     "015-real-speed-for-streaming.json",
-    "016-wifi-24-vs-5.json"
+    "016-wifi-24-vs-5.json",
+    "017-restart-correctly.json"
   ],
   "history": [
     {
@@ -97,6 +98,11 @@
       "file": "016-wifi-24-vs-5.json",
       "slug": "wifi-24ghz-vs-5ghz",
       "publishedAt": "2026-11-10"
+    },
+    {
+      "file": "017-restart-correctly.json",
+      "slug": "restart-router-and-device",
+      "publishedAt": "2026-11-11"
     }
   ]
 }
