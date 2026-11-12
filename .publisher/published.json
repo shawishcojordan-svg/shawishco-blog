@@ -16,7 +16,8 @@
     "014-first-day-checklist.json",
     "015-real-speed-for-streaming.json",
     "016-wifi-24-vs-5.json",
-    "017-restart-correctly.json"
+    "017-restart-correctly.json",
+    "018-clear-app-cache.json"
   ],
   "history": [
     {
@@ -103,6 +104,11 @@
       "file": "017-restart-correctly.json",
       "slug": "restart-router-and-device",
       "publishedAt": "2026-11-11"
+    },
+    {
+      "file": "018-clear-app-cache.json",
+      "slug": "clear-streaming-app-cache",
+      "publishedAt": "2026-11-12"
     }
   ]
 }
