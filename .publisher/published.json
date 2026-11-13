@@ -17,7 +17,8 @@
     "015-real-speed-for-streaming.json",
     "016-wifi-24-vs-5.json",
     "017-restart-correctly.json",
-    "018-clear-app-cache.json"
+    "018-clear-app-cache.json",
+    "019-free-storage-space.json"
   ],
   "history": [
     {
@@ -109,6 +110,11 @@
       "file": "018-clear-app-cache.json",
       "slug": "clear-streaming-app-cache",
       "publishedAt": "2026-11-12"
+    },
+    {
+      "file": "019-free-storage-space.json",
+      "slug": "storage-space-and-streaming-apps",
+      "publishedAt": "2026-11-13"
     }
   ]
 }

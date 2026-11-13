@@ -59,6 +59,11 @@ const renderArticle = (draft, date) => {
 };
 
 const state = JSON.parse(await fs.readFile(statePath, 'utf8'));
+const publicationDate = todayInAmman();
+if ((state.history || []).some(item => item.publishedAt === publicationDate)) {
+  console.log(`A guide was already published on ${publicationDate}; skipping duplicate daily run.`);
+  process.exit(0);
+}
 const files = (await fs.readdir(queueDir)).filter((name) => name.endsWith('.json')).sort();
 const nextFile = files.find((name) => !state.published.includes(name));
 if (!nextFile) {

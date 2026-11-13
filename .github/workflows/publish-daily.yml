@@ -2,7 +2,8 @@ name: Publish next daily guide
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "17 7 * * *" # 10:17 Asia/Amman
+    - cron: "17 8 * * *" # 11:17 backup; the publisher checks the local date
   workflow_dispatch:
 
 permissions:
