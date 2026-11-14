@@ -18,7 +18,8 @@
     "016-wifi-24-vs-5.json",
     "017-restart-correctly.json",
     "018-clear-app-cache.json",
-    "019-free-storage-space.json"
+    "019-free-storage-space.json",
+    "020-update-smart-tv.json"
   ],
   "history": [
     {
@@ -115,6 +116,11 @@
       "file": "019-free-storage-space.json",
       "slug": "storage-space-and-streaming-apps",
       "publishedAt": "2026-11-13"
+    },
+    {
+      "file": "020-update-smart-tv.json",
+      "slug": "update-tv-and-streaming-app",
+      "publishedAt": "2026-11-14"
     }
   ]
 }
