@@ -19,7 +19,8 @@
     "017-restart-correctly.json",
     "018-clear-app-cache.json",
     "019-free-storage-space.json",
-    "020-update-smart-tv.json"
+    "020-update-smart-tv.json",
+    "021-simultaneous-devices.json"
   ],
   "history": [
     {
@@ -121,6 +122,11 @@
       "file": "020-update-smart-tv.json",
       "slug": "update-tv-and-streaming-app",
       "publishedAt": "2026-11-14"
+    },
+    {
+      "file": "021-simultaneous-devices.json",
+      "slug": "how-many-devices-at-once",
+      "publishedAt": "2026-11-15"
     }
   ]
 }
