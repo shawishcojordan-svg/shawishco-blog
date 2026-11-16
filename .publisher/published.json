@@ -20,7 +20,8 @@
     "018-clear-app-cache.json",
     "019-free-storage-space.json",
     "020-update-smart-tv.json",
-    "021-simultaneous-devices.json"
+    "021-simultaneous-devices.json",
+    "022-one-device-or-many.json"
   ],
   "history": [
     {
@@ -127,6 +128,11 @@
       "file": "021-simultaneous-devices.json",
       "slug": "how-many-devices-at-once",
       "publishedAt": "2026-11-15"
+    },
+    {
+      "file": "022-one-device-or-many.json",
+      "slug": "subscription-for-one-or-multiple-devices",
+      "publishedAt": "2026-11-16"
     }
   ]
 }
