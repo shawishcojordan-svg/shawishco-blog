@@ -21,7 +21,8 @@
     "019-free-storage-space.json",
     "020-update-smart-tv.json",
     "021-simultaneous-devices.json",
-    "022-one-device-or-many.json"
+    "022-one-device-or-many.json",
+    "023-live-vs-demand.json"
   ],
   "history": [
     {
@@ -133,6 +134,11 @@
       "file": "022-one-device-or-many.json",
       "slug": "subscription-for-one-or-multiple-devices",
       "publishedAt": "2026-11-16"
+    },
+    {
+      "file": "023-live-vs-demand.json",
+      "slug": "live-channels-vs-on-demand",
+      "publishedAt": "2026-11-17"
     }
   ]
 }
