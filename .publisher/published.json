@@ -22,7 +22,8 @@
     "020-update-smart-tv.json",
     "021-simultaneous-devices.json",
     "022-one-device-or-many.json",
-    "023-live-vs-demand.json"
+    "023-live-vs-demand.json",
+    "024-movie-viewing-needs.json"
   ],
   "history": [
     {
@@ -139,6 +140,11 @@
       "file": "023-live-vs-demand.json",
       "slug": "live-channels-vs-on-demand",
       "publishedAt": "2026-11-17"
+    },
+    {
+      "file": "024-movie-viewing-needs.json",
+      "slug": "choose-service-for-movies",
+      "publishedAt": "2026-11-18"
     }
   ]
 }
