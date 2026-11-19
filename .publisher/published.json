@@ -23,7 +23,8 @@
     "021-simultaneous-devices.json",
     "022-one-device-or-many.json",
     "023-live-vs-demand.json",
-    "024-movie-viewing-needs.json"
+    "024-movie-viewing-needs.json",
+    "025-series-viewing-needs.json"
   ],
   "history": [
     {
@@ -145,6 +146,11 @@
       "file": "024-movie-viewing-needs.json",
       "slug": "choose-service-for-movies",
       "publishedAt": "2026-11-18"
+    },
+    {
+      "file": "025-series-viewing-needs.json",
+      "slug": "choose-service-for-series",
+      "publishedAt": "2026-11-19"
     }
   ]
 }
