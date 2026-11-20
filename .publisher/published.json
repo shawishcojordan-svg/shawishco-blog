@@ -24,7 +24,8 @@
     "022-one-device-or-many.json",
     "023-live-vs-demand.json",
     "024-movie-viewing-needs.json",
-    "025-series-viewing-needs.json"
+    "025-series-viewing-needs.json",
+    "026-kids-content-needs.json"
   ],
   "history": [
     {
@@ -151,6 +152,11 @@
       "file": "025-series-viewing-needs.json",
       "slug": "choose-service-for-series",
       "publishedAt": "2026-11-19"
+    },
+    {
+      "file": "026-kids-content-needs.json",
+      "slug": "safe-kids-viewing-setup",
+      "publishedAt": "2026-11-20"
     }
   ]
 }
