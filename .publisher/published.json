@@ -25,7 +25,8 @@
     "023-live-vs-demand.json",
     "024-movie-viewing-needs.json",
     "025-series-viewing-needs.json",
-    "026-kids-content-needs.json"
+    "026-kids-content-needs.json",
+    "027-sports-viewing-prep.json"
   ],
   "history": [
     {
@@ -157,6 +158,11 @@
       "file": "026-kids-content-needs.json",
       "slug": "safe-kids-viewing-setup",
       "publishedAt": "2026-11-20"
+    },
+    {
+      "file": "027-sports-viewing-prep.json",
+      "slug": "prepare-network-for-live-sports",
+      "publishedAt": "2026-11-21"
     }
   ]
 }
