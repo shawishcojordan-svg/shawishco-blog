@@ -26,7 +26,8 @@
     "024-movie-viewing-needs.json",
     "025-series-viewing-needs.json",
     "026-kids-content-needs.json",
-    "027-sports-viewing-prep.json"
+    "027-sports-viewing-prep.json",
+    "028-subtitles-settings.json"
   ],
   "history": [
     {
@@ -163,6 +164,11 @@
       "file": "027-sports-viewing-prep.json",
       "slug": "prepare-network-for-live-sports",
       "publishedAt": "2026-11-21"
+    },
+    {
+      "file": "028-subtitles-settings.json",
+      "slug": "fix-subtitles-on-streaming-app",
+      "publishedAt": "2026-11-22"
     }
   ]
 }
