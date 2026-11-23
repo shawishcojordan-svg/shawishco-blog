@@ -27,7 +27,8 @@
     "025-series-viewing-needs.json",
     "026-kids-content-needs.json",
     "027-sports-viewing-prep.json",
-    "028-subtitles-settings.json"
+    "028-subtitles-settings.json",
+    "029-audio-track-settings.json"
   ],
   "history": [
     {
@@ -169,6 +170,11 @@
       "file": "028-subtitles-settings.json",
       "slug": "fix-subtitles-on-streaming-app",
       "publishedAt": "2026-11-22"
+    },
+    {
+      "file": "029-audio-track-settings.json",
+      "slug": "choose-audio-language",
+      "publishedAt": "2026-11-23"
     }
   ]
 }
