@@ -28,7 +28,8 @@
     "026-kids-content-needs.json",
     "027-sports-viewing-prep.json",
     "028-subtitles-settings.json",
-    "029-audio-track-settings.json"
+    "029-audio-track-settings.json",
+    "030-electronic-program-guide.json"
   ],
   "history": [
     {
@@ -175,6 +176,11 @@
       "file": "029-audio-track-settings.json",
       "slug": "choose-audio-language",
       "publishedAt": "2026-11-23"
+    },
+    {
+      "file": "030-electronic-program-guide.json",
+      "slug": "what-is-epg-guide",
+      "publishedAt": "2026-11-24"
     }
   ]
 }
