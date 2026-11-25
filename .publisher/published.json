@@ -29,7 +29,8 @@
     "027-sports-viewing-prep.json",
     "028-subtitles-settings.json",
     "029-audio-track-settings.json",
-    "030-electronic-program-guide.json"
+    "030-electronic-program-guide.json",
+    "031-search-faster.json"
   ],
   "history": [
     {
@@ -181,6 +182,11 @@
       "file": "030-electronic-program-guide.json",
       "slug": "what-is-epg-guide",
       "publishedAt": "2026-11-24"
+    },
+    {
+      "file": "031-search-faster.json",
+      "slug": "search-content-faster",
+      "publishedAt": "2026-11-25"
     }
   ]
 }
