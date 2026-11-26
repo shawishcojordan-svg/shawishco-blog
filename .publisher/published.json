@@ -30,7 +30,8 @@
     "028-subtitles-settings.json",
     "029-audio-track-settings.json",
     "030-electronic-program-guide.json",
-    "031-search-faster.json"
+    "031-search-faster.json",
+    "032-favorites-list.json"
   ],
   "history": [
     {
@@ -187,6 +188,11 @@
       "file": "031-search-faster.json",
       "slug": "search-content-faster",
       "publishedAt": "2026-11-25"
+    },
+    {
+      "file": "032-favorites-list.json",
+      "slug": "organize-favorites-list",
+      "publishedAt": "2026-11-26"
     }
   ]
 }
