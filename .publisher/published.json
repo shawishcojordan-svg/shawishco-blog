@@ -31,7 +31,8 @@
     "029-audio-track-settings.json",
     "030-electronic-program-guide.json",
     "031-search-faster.json",
-    "032-favorites-list.json"
+    "032-favorites-list.json",
+    "033-parental-control.json"
   ],
   "history": [
     {
@@ -193,6 +194,11 @@
       "file": "032-favorites-list.json",
       "slug": "organize-favorites-list",
       "publishedAt": "2026-11-26"
+    },
+    {
+      "file": "033-parental-control.json",
+      "slug": "set-parental-control-pin",
+      "publishedAt": "2026-11-27"
     }
   ]
 }
